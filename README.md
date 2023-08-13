@@ -29,4 +29,6 @@
 
 - Have a mapping and allow the definition of user photo (URL of an image);
 - The pagination be dynamic, defined by the contract administrator;
-- Function to return only tweets from a specific user;
+- Function to return only messages from a specific user;
+- Deploy on another blockchain (suggestions: Avalanche Fuji, Polygon Mumbai or Ethereum Goerli)
+- Use useEffect and localStorage to save and detect that the user is already authenticated on Frontend, without it need to press the button;

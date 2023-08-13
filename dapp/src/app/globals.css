@@ -17,4 +17,29 @@
 .message {
     color: gray;
     margin-top: 10px;
+    margin-left: 10px;
+}
+
+.layout {
+    display: grid;
+    margin: 0 auto;
+    max-width: 800px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.top {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.left {
+    float: left;
+    margin-top: 17px;
+}
+
+.brand {
+    height: 64px;
+    padding-right: 10px;
+    filter: invert(41%) sepia(16%) saturate(1788%) hue-rotate(195deg) brightness(92%) contrast(86%);
 }
