@@ -66,7 +66,7 @@ export default function Home() {
                                 Connect as Metamask
                             </button>
                         </div>
-                        <p className="message">{message}</p>
+                        <p className="alert">{message}</p>
                     </div>
                 </div>
             </div>

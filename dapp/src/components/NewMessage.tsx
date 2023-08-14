@@ -55,7 +55,7 @@ export default function NewMessage() {
                         value="Publish"
                         onClick={btnPublishClick}
                     />
-                    <span className="message">{message}</span>
+                    <span className="alert">{message}</span>
                 </div>
             </div>
         </>

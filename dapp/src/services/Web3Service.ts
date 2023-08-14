@@ -43,3 +43,14 @@ export async function changeUsername(newName: string) {
     // @ts-ignore
     return contract.methods.changeUsername(newName).send();
 }
+
+export async function getLastMessages(page: number) {
+    const contract = getContract();
+    // @ts-ignore
+    const messages: any[] = await contract.methods.getLastMessages(page).call();
+    return messages
+        .map((m) => {
+            return { ...m };
+        })
+        .filter((m) => m.text !== '');
+}
